@@ -1,36 +1,9 @@
-const cardName = [
-  "card1-inner",
-  "card2-inner",
-  "card3-inner",
-  "card4-inner",
-  "card5-inner",
-  "card6-inner",
-  "card7-inner",
-  "card8-inner",
-];
+const cardName = ["card1-inner", "card2-inner", "card3-inner"];
 
-const resultList = [
-  "result1",
-  "result2",
-  "result3",
-  "result4",
-  "result5",
-  "result6",
-  "result7",
-  "result8",
-];
+const resultList = ["result1", "result2", "result3"];
 
 const shuffle = () => {
-  let prize = [
-    "ได้รับเงินรางวัล 5x",
-    "ได้รับเงินรางวัล 3x",
-    "ได้รับเงินรางวัล 2x",
-    "เสียเงินรางวัล",
-    "เสียเงินรางวัล",
-    "เสียเงินรางวัล",
-    "เสียเงินรางวัล",
-    "เสียเงินรางวัล",
-  ];
+  let prize = ["ได้รับเงินรางวัล", "เสียเงินรางวัล", "เสียเงินรางวัล"];
 
   prize = arr_shuffle(prize);
 
@@ -48,6 +21,7 @@ const shuffle = () => {
     return rec != randomPrize;
   });
 };
+
 const random = (mn, mx) => {
   return Math.random() * (mx - mn) + mn;
 };
