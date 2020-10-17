@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 
 body {
-  background-image: url(./assets/background.jpg);
+  background: #333333 url(./assets/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
