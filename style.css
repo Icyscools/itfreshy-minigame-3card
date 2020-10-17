@@ -108,3 +108,15 @@ body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+/* Front card background */
+.front-card-bg {
+  background-image: url('./assets/front_card.jpeg');
+  background-size: cover;
+}
+
+/* Back card background */
+.back-card-bg {
+  background-image: url('./assets/back_card.jpeg');
+  background-size: cover;
+}
